@@ -1,0 +1,15 @@
+formit.yo:
+  path: '/formit/yo'
+  defaults: 
+    _controller: '\Drupal\formit\Controller\DefaultController::yo'
+    _title: 'Formit'
+  requirements:
+    _permission: 'access content'
+
+formit.formit_form:
+  path: '/admin/config/formit/form'
+  defaults: 
+  	_form: '\Drupal\formit\Form\FormitForm'
+  	_title: 'Formit Form'
+  requirements:
+    _permission: 'access administration pages'

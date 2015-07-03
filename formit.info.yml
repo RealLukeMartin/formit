@@ -1,0 +1,5 @@
+name: Formit
+type: module
+description: 'Experimenting with Form API'
+core: 8.x
+package: other
